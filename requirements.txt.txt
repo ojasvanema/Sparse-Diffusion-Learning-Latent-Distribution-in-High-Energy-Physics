@@ -1,0 +1,12 @@
+# Python version (informative, not enforced via pip)
+# Python 3.11.11
+
+torch==2.6.0+cu124
+numpy==1.26.4
+h5py==3.13.0
+matplotlib==3.7.2
+argparse
+tqdm
+
+# Optional for CUDA-specific install
+# pip install torch==2.6.0+cu124 -f https://download.pytorch.org/whl/torch_stable.html

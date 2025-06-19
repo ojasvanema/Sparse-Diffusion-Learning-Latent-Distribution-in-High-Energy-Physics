@@ -1,5 +1,5 @@
 
-# 📦 Quark-Gluon Jet Modeling with VAE & Latent Diffusion
+# Sparse Diffusion Learning Latent Distribution in High Energy Physics
 
 This repository implements modeling of sparse high-energy physics jet data (such as ECAL/HCAL/Tracks) using:
 - **Weighted Variational Autoencoder (VAE)** with custom loss
@@ -9,7 +9,7 @@ It supports modular training & inference using CLI with `argparse`.
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 project_root/
@@ -31,11 +31,11 @@ project_root/
 
 ---
 
-## 🧑‍💻 Installation
+## Installation
 
 ```bash
-git clone https://github.com/your_username/jet-models.git
-cd jet-models
+git clone https://github.com/ojasvanema/Sparse-Diffusion-Learning-Latent-Distribution-in-High-Energy-Physics.git
+cd Main
 
 # Create environment
 pip install -r requirements.txt
@@ -44,10 +44,19 @@ pip install -r requirements.txt
 ### Requirements (`requirements.txt`)
 
 ```
-torch
-numpy
-h5py
-matplotlib
+# Python version (informative, not enforced via pip)
+# Python 3.11.11
+
+torch==2.6.0+cu124
+numpy==1.26.4
+h5py==3.13.0
+matplotlib==3.7.2
+argparse
+tqdm
+
+# Optional for CUDA-specific install
+# pip install torch==2.6.0+cu124 -f https://download.pytorch.org/whl/torch_stable.html
+
 ```
 
 ---
@@ -65,7 +74,7 @@ Each channel is processed individually.
 
 ---
 
-## 🧠 Model 1: Weighted VAE
+## Model 1: Weighted VAE
 
 ### 🏋️ Train Weighted VAE
 
@@ -86,7 +95,7 @@ Arguments:
 
 ---
 
-### 🔍 Sample from VAE (Reconstruction)
+###  Sample from VAE (Reconstruction)
 
 ```bash
 python models/sample_weighted_vae.py \
@@ -98,9 +107,9 @@ python models/sample_weighted_vae.py \
 
 ---
 
-## 🌫️ Model 2: Latent Diffusion Model (LDM)
+##  Model 2: Latent Diffusion Model (LDM)
 
-### 🏋️ Train Latent Diffusion
+###  Train Latent Diffusion
 
 ```bash
 python models/train_latent_diffusion.py \
@@ -121,7 +130,7 @@ Arguments:
 
 ---
 
-### 🧪 Sample from LDM
+###  Sample from LDM
 
 ```bash
 python models/sample_latent_diffusion.py \
@@ -134,7 +143,7 @@ python models/sample_latent_diffusion.py \
 
 ---
 
-## ✅ Example Workflow
+##  Example Workflow
 
 ```bash
 # Train VAE for ECAL
