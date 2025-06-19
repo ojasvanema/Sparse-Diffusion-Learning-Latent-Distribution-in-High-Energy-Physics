@@ -156,8 +156,3 @@ python models/train_latent_diffusion.py --hdf5_file data.hdf5 --vae_ckpt vae_ECA
 python models/sample_latent_diffusion.py --vae_ckpt vae_ECAL.pth --ldm_ckpt ldm_ECAL.pth
 ```
 
----
-
-## 📧 Contact
-
-For questions or issues, feel free to open an [Issue](https://github.com/your_username/jet-models/issues) or reach out via email.
