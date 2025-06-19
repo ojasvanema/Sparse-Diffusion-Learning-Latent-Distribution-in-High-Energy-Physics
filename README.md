@@ -12,7 +12,7 @@ It supports modular training & inference using CLI with `argparse`.
 ## Repository Structure
 
 ```
-project_root/
+Sparse-Diffusion-Learning-Latent-Distribution-in-High-Energy-Physics/
 │
 ├── dataset.py                      # Dataset loader for HDF5 jet data
 │
@@ -35,7 +35,7 @@ project_root/
 
 ```bash
 git clone https://github.com/ojasvanema/Sparse-Diffusion-Learning-Latent-Distribution-in-High-Energy-Physics.git
-cd Main
+cd "Sparse Diffusion Learning Latent Distribution in High Energy Physics"
 
 # Create environment
 pip install -r requirements.txt
