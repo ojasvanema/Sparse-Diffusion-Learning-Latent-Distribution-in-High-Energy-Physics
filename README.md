@@ -1,7 +1,7 @@
 
 # Sparse Diffusion Learning Latent Distribution in High Energy Physics
 
-This repository implements modeling of sparse high-energy physics jet data (such as ECAL/HCAL/Tracks) using:
+This repository implements modelling of sparse high-energy physics jet data (such as ECAL/HCAL/Tracks) using:
 - **Weighted Variational Autoencoder (VAE)** with custom loss
 - **Latent Diffusion Model (LDM)** on VAE's latent space
 
