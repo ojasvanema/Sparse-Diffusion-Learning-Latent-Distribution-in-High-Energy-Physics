@@ -9,7 +9,7 @@ It supports modular training & inference using CLI with `argparse`.
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 project_root/
@@ -31,11 +31,11 @@ project_root/
 
 ---
 
-## 🧑‍💻 Installation
+## Installation
 
 ```bash
-git clone https://github.com/your_username/jet-models.git
-cd jet-models
+git clone https://github.com/ojasvanema/Sparse-Diffusion-Learning-Latent-Distribution-in-High-Energy-Physics.git
+cd Main
 
 # Create environment
 pip install -r requirements.txt
@@ -65,7 +65,7 @@ Each channel is processed individually.
 
 ---
 
-## 🧠 Model 1: Weighted VAE
+## Model 1: Weighted VAE
 
 ### 🏋️ Train Weighted VAE
 
@@ -86,7 +86,7 @@ Arguments:
 
 ---
 
-### 🔍 Sample from VAE (Reconstruction)
+###  Sample from VAE (Reconstruction)
 
 ```bash
 python models/sample_weighted_vae.py \
@@ -98,9 +98,9 @@ python models/sample_weighted_vae.py \
 
 ---
 
-## 🌫️ Model 2: Latent Diffusion Model (LDM)
+##  Model 2: Latent Diffusion Model (LDM)
 
-### 🏋️ Train Latent Diffusion
+###  Train Latent Diffusion
 
 ```bash
 python models/train_latent_diffusion.py \
@@ -121,7 +121,7 @@ Arguments:
 
 ---
 
-### 🧪 Sample from LDM
+###  Sample from LDM
 
 ```bash
 python models/sample_latent_diffusion.py \
