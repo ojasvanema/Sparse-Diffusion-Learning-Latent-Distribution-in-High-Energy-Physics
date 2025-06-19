@@ -61,7 +61,7 @@ tqdm
 
 ---
 
-## 📊 Dataset Format
+## Dataset Format
 
 We use a preprocessed HDF5 file with structure:
 
@@ -76,7 +76,7 @@ Each channel is processed individually.
 
 ## Model 1: Weighted VAE
 
-### 🏋️ Train Weighted VAE
+### Train Weighted VAE
 
 ```bash
 python models/train_weighted_vae.py \
