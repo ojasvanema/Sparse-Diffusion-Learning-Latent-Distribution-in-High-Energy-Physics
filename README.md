@@ -1,5 +1,5 @@
 
-# 📦 Quark-Gluon Jet Modeling with VAE & Latent Diffusion
+# Sparse Diffusion Learning Latent Distribution in High Energy Physics
 
 This repository implements modeling of sparse high-energy physics jet data (such as ECAL/HCAL/Tracks) using:
 - **Weighted Variational Autoencoder (VAE)** with custom loss
@@ -134,7 +134,7 @@ python models/sample_latent_diffusion.py \
 
 ---
 
-## ✅ Example Workflow
+##  Example Workflow
 
 ```bash
 # Train VAE for ECAL
